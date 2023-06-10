@@ -1,38 +1,127 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+
+.cover-img{
+  width: 100%;
+  display: flex;justify-content: center;
+}
+.desk{
+  width: 93%;
+height: 75vh;
+border-radius: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.smallimg{
+  width: 13%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main{
+ width: 100%;
+  
+  /* width: 90%; */
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  justify-content: space-around;
 
-.App-link {
-  color: #61dafb;
 }
+.card:hover{
+ border: 1px solid #f31d1d5f;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.maincont{
+  /* width: 20%; */
+  display: flex;
+  justify-content: space-between;
+}
+.butt{
+
+  font-family: 'Open Sans';
+font-style: normal;
+font-weight: 200;
+font-size: 13px;
+  width: 100%;
+  padding: 3%;
+  border-radius: 5px;
+  border: none;
+  color: #FFFFFF;
+  background: #F31D1D;
+}
+.jazzimg{
+  border-radius: 3px;
+  width: 90%;
+}
+.main-card{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.card{
+  border-radius: 5px;
+  width: 32%;
+  height: 75vh;
+}
+.card-img-top{
+  
+  border-radius: none;
+}
+.card-text{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+ 
+}
+.increment-button{
+  display: flex;
+  justify-content: space-around;
+  border-radius: 5px;
+  padding: 5%;
+  
+  width: 45%;
+  background: rgba(225, 186, 186, 0.313);
+}
+.inc{
+  padding: 0px 10px;
+  color: #F31D1D;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-color: white;
+}
+.inc2{
+  
+  background: rgba(217, 217, 217, 0.5);
+  border: none;
+  color: #FFFFFF;
+}
+.card-title{
+  font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 15px;
+/* identical to box height */
+
+
+color: rgba(0, 0, 0, 0.86);
+}
+.total{
+  font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 15px;
+/* identical to box height */
+
+
+color: #878787;
+}
+.amount{
+  
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 17px;
+line-height: 23px;
+
+color: #000000;
+
 }
