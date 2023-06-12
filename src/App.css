@@ -1,127 +1,143 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap");
 
+* {
+  box-sizing: border-box;
+}
 
-.cover-img{
+.cover-img {
   width: 100%;
-  display: flex;justify-content: center;
+  display: flex;
+  justify-content: center;
 }
-.desk{
+.desk {
   width: 93%;
-height: 75vh;
-border-radius: 20px;
+  height: 75vh;
+  border-radius: 20px;
 }
 
-.smallimg{
+.smallimg {
   width: 13%;
 }
 
-.main{
- width: 100%;
-  
-  /* width: 90%; */
+.main {
+  width: 100%;
+  padding: 4%;
+  /* margin-left: 5%;
+ margin-right: 5%; */
+
   display: flex;
   justify-content: space-around;
-
 }
-.card:hover{
- border: 1px solid #f31d1d5f;
-
+.card:hover {
+  border: 1px solid #f31d1d5f;
 }
-.maincont{
-  /* width: 20%; */
+.maincont {
   display: flex;
   justify-content: space-between;
 }
-.butt{
-
-  font-family: 'Open Sans';
-font-style: normal;
-font-weight: 200;
-font-size: 13px;
+.butt {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 13px;
   width: 100%;
   padding: 3%;
   border-radius: 5px;
   border: none;
-  color: #FFFFFF;
-  background: #F31D1D;
+  color: #ffffff;
+  background: #f31d1d;
 }
-.jazzimg{
+.jazzimg {
   border-radius: 3px;
   width: 90%;
 }
-.main-card{
-  width: 100%;
+.main-card {
+  width: 80%;
   display: flex;
   justify-content: space-between;
+
+  /* display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 20px; */
 }
-.card{
+.card {
   border-radius: 5px;
   width: 32%;
-  height: 75vh;
+  height: 69vh;
 }
-.card-img-top{
-  
+.card-img-top {
   border-radius: none;
 }
-.card-text{
+.card-text {
   width: 100%;
   display: flex;
   justify-content: space-between;
- 
 }
-.increment-button{
+.increment-button {
   display: flex;
   justify-content: space-around;
   border-radius: 5px;
   padding: 5%;
-  
+
   width: 45%;
   background: rgba(225, 186, 186, 0.313);
 }
-.inc{
+.inc {
   padding: 0px 10px;
-  color: #F31D1D;
+  color: #f31d1d;
   border-radius: 5px;
   border: none;
   outline: none;
   background-color: white;
 }
-.inc2{
-  
+.inc2 {
   background: rgba(217, 217, 217, 0.5);
   border: none;
-  color: #FFFFFF;
+  color: #ffffff;
 }
-.card-title{
-  font-family: 'Open Sans';
-font-style: normal;
-font-weight: 600;
-font-size: 13px;
-line-height: 15px;
-/* identical to box height */
+.card-title {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 15px;
 
-
-color: rgba(0, 0, 0, 0.86);
+  color: rgba(0, 0, 0, 0.86);
 }
-.total{
-  font-family: 'Open Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 11px;
-line-height: 15px;
-/* identical to box height */
+.total {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 15px;
 
-
-color: #878787;
+  color: #878787;
 }
-.amount{
-  
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 600;
-font-size: 17px;
-line-height: 23px;
+.amount {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 23px;
 
-color: #000000;
+  color: #000000;
+}
+.jazzimg {
+  width: 95%;
+}
+.foot-main{
+  background-color: #000000;
+}
+.vec1{
+  /* position: absolute;
+left: 7.29%;
+right: 89.31%;
+top: 8.7%;
+bottom: 80.09%; */
+/* color: black; */
 
+/* background: #F31D1D; */
+}
+.active{
+  color: white;
 }
